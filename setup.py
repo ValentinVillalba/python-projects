@@ -5,7 +5,7 @@ setup(
 	version="1.0",
 	description="Paquete de redondeo y potencia.",
 	author="Villal",
-	author_email="masterpichula360@hotmail.com",
+	author_email="master360@hotmail.com",
 	url="www.elvillalhackerman.com.ar",
 	packages=["calculos","calculos.redondeo_potencia"]
 	)
