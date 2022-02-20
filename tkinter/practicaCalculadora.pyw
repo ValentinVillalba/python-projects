@@ -1,6 +1,6 @@
 from tkinter import *
 
-#this was a weird project, please don't take it seriously.
+#this was a weird project, please don't take it too seriously.
 
 root=Tk()
 root.title("Doge Calculator")
