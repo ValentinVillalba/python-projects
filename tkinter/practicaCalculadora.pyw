@@ -1,5 +1,7 @@
 from tkinter import *
 
+#this was a weird project, please don't take it seriously.
+
 root=Tk()
 root.title("Doge Calculator")
 root.iconbitmap("doge.ico")
