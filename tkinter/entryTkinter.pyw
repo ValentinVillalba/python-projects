@@ -38,7 +38,7 @@ comentariosLabel=Label(miFrame, text="Comentario: ")
 comentariosLabel.grid(row=3,column=0,sticky="e", pady=5)
 
 def codigoBoton():
-	miNombre.set("TROLIADO PUTO")
+	miNombre.set("TROLLEADO")
 
 botonEnviar=Button(root, text="Enviar", command=codigoBoton)
 botonEnviar.pack()
