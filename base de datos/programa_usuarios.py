@@ -194,7 +194,6 @@ def destroyFunction():
 menuBar=Menu(root)
 root.config(menu=menuBar)
 root.title("User Manager")
-root.iconbitmap("doge.ico")
 root.resizable(0,0)
 
 #MENU
