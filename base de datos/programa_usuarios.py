@@ -37,7 +37,7 @@ def showLicence():
 
 #muestra el acerca de...
 def showAbout():
-	messagebox.showinfo("About...", "This program was created by xX||VILLAL-360||Xx.")
+	messagebox.showinfo("About...", "This program was created by Valentin Villalba.")
 
 #genera un archivo de texto que contiene toda la informacion de la base de datos
 def getDatabase():
@@ -202,7 +202,7 @@ BBDD_menu=Menu(menuBar, tearoff=0)
 BBDD_menu.add_command(label="Connect", command=connectDatabase) #crea una base de datos
 BBDD_menu.add_command(label="Exit", command=exitFunction) #mostrar messagebox para confirmar
 BBDD_menu.add_separator()
-BBDD_menu.add_command(label="GET DATABASE [ADMIN ONLY]", command=getDatabase)
+BBDD_menu.add_command(label="Get Database TXT [ADMIN ONLY]", command=getDatabase)
 
 Erase_menu=Menu(menuBar, tearoff=0)
 Erase_menu.add_command(label="Erase fields", command=eraseFields) #vaciar todos los campos
